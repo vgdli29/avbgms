@@ -93,7 +93,7 @@ const EventDetails = () => {
                   <ul className="list-unstyled event-infos__list event-infos__list-has-icons">
                     <li>
                       <i className="azino-icon-telephone"></i>
-                      <a href="tel:6668880000">666 888 0000</a>
+                      <a href="tel:+91-79821-30200">+91-79821-30200</a>
                     </li>
                     <li>
                       <i className="azino-icon-email"></i>

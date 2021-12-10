@@ -5,6 +5,8 @@ import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
 import banner1 from "../../assets/images/main-slider/slider-2-1.jpg";
 import banner2 from "../../assets/images/main-slider/slider-1-2.jpg";
 import banner3 from "../../assets/images/main-slider/slider-1-1.jpg";
+import banner4 from "../../assets/images/main-slider/slider-2-2.jpg";
+import banner5 from "../../assets/images/main-slider/slider-2-3.jpg";
 
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
@@ -36,16 +38,9 @@ const MainSliderTwo = () => {
             <Row className=" justify-content-start">
               <Col xl={6} lg={12} className="text-left">
                 <h2>
-                  Donat<span>i</span>on <br /> Can Change <br /> Someone’s Life
+                  Spreading smiles and education
                 </h2>
-                <p>Make a difference in families lives with just $5 a Month</p>
-                <a
-                  href="#none"
-                  data-target=".donate-options"
-                  className="scroll-to-target thm-btn dynamic-radius"
-                >
-                  Start Donating
-                </a>
+                <p>Making a difference by educating the underprivileged children </p>                
               </Col>
             </Row>
           </Container>
@@ -59,17 +54,10 @@ const MainSliderTwo = () => {
           <Container>
             <Row className=" justify-content-start">
               <Col xl={6} lg={12} className="text-left">
-                <h2>
-                  Donat<span>i</span>on <br /> Can Change <br /> Someone’s Life
+              <h2>
+                  Education with some spiritual practice
                 </h2>
-                <p>Make a difference in families lives with just $5 a Month</p>
-                <a
-                  href="#none"
-                  data-target=".donate-options"
-                  className="scroll-to-target thm-btn dynamic-radius"
-                >
-                  Start Donating
-                </a>
+                <p>Making a difference by educating the underprivileged children </p>   
               </Col>
             </Row>
           </Container>
@@ -83,17 +71,44 @@ const MainSliderTwo = () => {
           <Container>
             <Row className="justify-content-start">
               <Col xl={6} lg={12} className="text-left">
-                <h2>
-                  Donat<span>i</span>on <br /> Can Change <br /> Someone’s Life
+              <h2>
+                  Fun time with kids
                 </h2>
-                <p>Make a difference in families lives with just $5 a Month</p>
-                <a
-                  href="#none"
-                  data-target=".donate-options"
-                  className="scroll-to-target thm-btn dynamic-radius"
-                >
-                  Start Donating
-                </a>
+                <p>Making a difference by educating the underprivileged children </p>   
+              </Col>
+            </Row>
+          </Container>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="image-layer"
+            style={{ backgroundImage: `url(${banner4})` }}
+          ></div>
+
+          <Container>
+            <Row className="justify-content-start">
+              <Col xl={6} lg={12} className="text-left">
+              <h2>
+                  Medical checkup camp for all
+                </h2>
+                <p>Free medical check for all, health is wealth</p>   
+              </Col>
+            </Row>
+          </Container>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="image-layer"
+            style={{ backgroundImage: `url(${banner5})` }}
+          ></div>
+
+          <Container>
+            <Row className="justify-content-start">
+              <Col xl={6} lg={12} className="text-left">
+              <h2>
+                  Tree plantation time
+                </h2>
+                <p>A little step towards greener world</p>   
               </Col>
             </Row>
           </Container>

@@ -24,7 +24,7 @@ const HomeTwo = () => {
       <HeaderTwo />
       <StickyHeader extraClassName="stricky-header-two" />
       <MainSliderTwo />
-      <ServiceTwo />
+      {/*<ServiceTwo /> */}
       <AboutTwo />
       <VideoCard />
       <CausesHome />

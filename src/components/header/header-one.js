@@ -52,11 +52,11 @@ const HeaderOne = () => {
                 <ul className="list-unstyled main-header__info-list">
                   <li>
                     <i className="azino-icon-email"></i>
-                    <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
+                    <a href="mailto:atalvivek.avbgms@gmail.com">atalvivek.avbgms@gmail.com</a>
                   </li>
                   <li>
                     <i className="azino-icon-telephone"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+91-79821-30200">+91-79821-30200</a>
                   </li>
                 </ul>
                 <div className="main-header__language">

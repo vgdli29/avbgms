@@ -61,8 +61,8 @@ const HeaderTwo = () => {
             <div className="header-info__box">
               <i className="azino-icon-address"></i>
               <div className="header-info__box-content">
-                <h3>Visit</h3>
-                <p>88 Broklyn Golden Street, USA</p>
+                <h3>Visiter</h3>
+                <p>Greater Noida, Uttar Pradesh, India</p>
               </div>
             </div>
           </div>

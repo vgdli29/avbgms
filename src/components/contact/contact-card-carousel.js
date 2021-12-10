@@ -50,8 +50,7 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-address"></i>
               <h3>Address</h3>
               <p>
-                88 Broklyn Golden Street, <br /> New York. United States of{" "}
-                <br /> America.
+                Greater Noida, Gautam Buddh Nagar, <br /> Uttar Pradesh, India
               </p>
             </div>
           </SwiperSlide>
@@ -63,8 +62,8 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-contact"></i>
               <h3>Contact</h3>
               <p>
-                <a href="mailto:">needhelp@azino.com</a> <br />{" "}
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="mailto:atalvivek.avbgms@gmail.com">atalvivek.avbgms@gmail.com</a> <br />{" "}
+                <a href="tel:+91-79821-30200">+91-79821-30200</a>
               </p>
             </div>
           </SwiperSlide>

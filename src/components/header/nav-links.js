@@ -11,31 +11,46 @@ const NavLinks = ({ extraClassName }) => {
       <li>
         <Link to="/">Home</Link>        
       </li>
+      <li>
+        <Link to="/events">What We Do</Link>        
+      </li>
       <li className="dropdown">
-        <Link to="/causes">Causes</Link>
+        <Link to="/About">Causes</Link>
         <button aria-label="dropdown toggler" onClick={handleDropdownStatus}>
           <i className="fa fa-angle-down"></i>
         </button>
         <ul className="dropdown-list">
           <li>
-            <Link to="/causes">Causes</Link>
+            <Link to="/about-us">About Us</Link>
           </li>
           <li>
-            <Link to="/cause-details">Cause Details</Link>
+            <Link to="/mission">Mission and Vision</Link>
+          </li>
+          <li>
+            <Link to="/values">Values</Link>
+          </li>
+          <li>
+            <Link to="/docs">Statutory documents</Link>
+          </li>
+          <li>
+            <Link to="/volunteers">Team</Link>
           </li>
         </ul>
       </li>
       <li className="dropdown">
-        <Link to="/events">Events</Link>
+        <Link to="/resource">Resources</Link>
         <button aria-label="dropdown toggler" onClick={handleDropdownStatus}>
           <i className="fa fa-angle-down"></i>
         </button>
         <ul className="dropdown-list">
           <li>
-            <Link to="/events">Events</Link>
+            <Link to="/photos">Photos</Link>
           </li>
           <li>
-            <Link to="/event-details">Event Details</Link>
+            <Link to="/videos">Videos</Link>
+          </li>
+          <li>
+            <Link to="/events">Events</Link>
           </li>
         </ul>
       </li>
@@ -46,10 +61,13 @@ const NavLinks = ({ extraClassName }) => {
         </button>
         <ul className="dropdown-list">
           <li>
-            <Link to="/news">News</Link>
+            <Link to="/print-news">Print News</Link>
           </li>
           <li>
-            <Link to="/news-details">News Details</Link>
+            <Link to="/e-news">E-News</Link>
+          </li>
+          <li>
+            <Link to="/newsletters">Newsletters</Link>
           </li>
         </ul>
       </li>
@@ -61,9 +79,6 @@ const NavLinks = ({ extraClassName }) => {
         <ul className="dropdown-list">
           <li>
             <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/volunteers">Volunteers</Link>
           </li>
           <li>
             <Link to="/become-volunteer">Become a Volunteer</Link>

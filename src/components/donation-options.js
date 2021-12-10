@@ -29,7 +29,7 @@ const DonationOptions = () => {
                   <p>
                     Have any question about donation? <br />{" "}
                     <span>Call us now:</span>{" "}
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+91-79821-30200">+91-79821-30200</a>
                   </p>
                 </div>
               </div>

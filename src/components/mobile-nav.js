@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import NavLinks from "./header/nav-links";
 
 import logoLight from "../assets/images/logo-light.png";
-import flag1 from "../assets/images/resources/flag-1-1.jpg";
 
 const MobileNav = () => {
   const [hasMounted, setHasMounted] = useState(false);
@@ -79,27 +78,27 @@ const MobileNav = () => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="azino-icon-email"></i>
-            <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
+            <a href="mailto:atalvivek.avbgms@gmail.com">atalvivek.avbgms@gmail.com</a>
           </li>
           <li>
             <i className="azino-icon-telephone"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="tel:+91-79821-30200">+91-79821-30200</a>
           </li>
         </ul>
         <div className="mobile-nav__top">
-          <div className="mobile-nav__language">
+          {/**<div className="mobile-nav__language">
             <img src={flag1} alt="" />
-            <label className="sr-only" htmlFor="language-select">
+             <label className="sr-only" htmlFor="language-select">
               select language
             </label>
             <select className="selectpicker" id="language-select">
               <option value="english">English</option>
               <option value="arabic">Arabic</option>
-            </select>
+              </select> 
             <i className="fa fa-caret-down select-icon"></i>
-          </div>
+          </div>*/}
           <div className="mobile-nav__social">
-            <a href="#none" aria-label="twitter">
+            {/** <a href="#none" aria-label="twitter">
               <i className="fab fa-twitter"></i>
             </a>
             <a href="#none" aria-label="facebook">
@@ -110,6 +109,12 @@ const MobileNav = () => {
             </a>
             <a href="#none" aria-label="instagram">
               <i className="fab fa-instagram"></i>
+            </a> */}
+            <a href="https://www.facebook.com/atalvivek.avbgms/" aria-label="facebook">
+              <i className="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://wa.me/917982130200/" aria-label="whatsapp">
+              <i className="fab fa-whatsapp-square"></i>
             </a>
           </div>
         </div>
