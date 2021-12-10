@@ -8,36 +8,8 @@ const NavLinks = ({ extraClassName }) => {
   };
   return (
     <ul className={`main-menu__list ${extraClassName}`}>
-      <li className="dropdown">
-        <Link to="/">Home</Link>
-        <button aria-label="dropdown toggler" onClick={handleDropdownStatus}>
-          <i className="fa fa-angle-down"></i>
-        </button>
-        <ul className="dropdown-list">
-          <li>
-            <Link to="/">Home One</Link>
-          </li>
-          <li>
-            <Link to="/index-2">Home Two</Link>
-          </li>
-          <li className="dropdown">
-            <Link to="#">Header Styles</Link>
-            <button
-              aria-label="dropdown toggler"
-              onClick={handleDropdownStatus}
-            >
-              <i className="fa fa-angle-down"></i>
-            </button>
-            <ul className="dropdown-list">
-              <li>
-                <Link to="/">Header One</Link>
-              </li>
-              <li>
-                <Link to="/index-2">Header Two</Link>
-              </li>
-            </ul>
-          </li>
-        </ul>
+      <li>
+        <Link to="/">Home</Link>        
       </li>
       <li className="dropdown">
         <Link to="/causes">Causes</Link>

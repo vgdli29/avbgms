@@ -10,20 +10,23 @@ const HeaderTwo = () => {
     <div className="main-header__two">
       <div className="main-header__top">
         <Container>
-          <p>Welcome to non profit charity platform</p>
+          <p>Welcome to Atal-Vivek Bharat Gyan-Mandir Sansthan</p>
           <div className="main-header__social">
-            <a href="#none" aria-label="twitter">
+            { /** <a href="#none" aria-label="twitter">
               <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#none" aria-label="facebook">
+            </a> */}
+            <a href="https://www.facebook.com/atalvivek.avbgms/" aria-label="facebook">
               <i className="fab fa-facebook-square"></i>
             </a>
-            <a href="#none" aria-label="pinterest">
+            <a href="https://wa.me/917982130200/" aria-label="whatsapp">
+              <i className="fab fa-whatsapp-square"></i>
+            </a>
+            {/** <a href="#none" aria-label="pinterest">
               <i className="fab fa-pinterest-p"></i>
             </a>
             <a href="#none" aria-label="instagram">
               <i className="fab fa-instagram"></i>
-            </a>
+            </a> */}
           </div>
         </Container>
       </div>
@@ -42,7 +45,7 @@ const HeaderTwo = () => {
               <div className="header-info__box-content">
                 <h3>Email</h3>
                 <p>
-                  <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
+                  <a href="mailto:atalvivek.avbgms@gmail.com">atalvivek.avbgms@gmail.com</a>
                 </p>
               </div>
             </div>
@@ -51,7 +54,7 @@ const HeaderTwo = () => {
               <div className="header-info__box-content">
                 <h3>Phone</h3>
                 <p>
-                  <a href="tel:666-888-0000">666 888 0000</a>
+                  <a href="tel:+91-79821-30200">+91 79821 30200</a>
                 </p>
               </div>
             </div>
