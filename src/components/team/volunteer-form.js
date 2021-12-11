@@ -19,19 +19,18 @@ const VolunteerForm = () => {
                 </h3>
               </div>
               <p className="block-text mb-40 pr-10">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{" "}
+                Join us in our social causes, lets build a world where every one gets to live a happy, healthy and prosperous life{" "}
               </p>
               <ul className="list-unstyled ul-list-one">
-                <li>Nsectetur cing elit.</li>
-                <li>Suspe ndisse suscipit sagittis leo.</li>
-                <li>Entum estibulum dignissim posuere.</li>
+                <li>Fill the form</li>
+                <li>Get in touch.</li>
+                <li>Be a part of out motivated volunteers group</li>
               </ul>
             </div>
           </Col>
           <Col lg={7}>
-            <form className="contact-form-validated become-volunteer__form form-one mb-40">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqDQViaDacs5VeY00kRLIO8YBHrY0NfwqXt0w3VDOAqpEtQQ/viewform?embedded=true" width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            {/*<form className="contact-form-validated become-volunteer__form form-one mb-40">
               <div className="form-group">
                 <div className="form-control">
                   <label htmlFor="name" className="sr-only">
@@ -116,7 +115,7 @@ const VolunteerForm = () => {
                 </div>
               </div>
             </form>
-            <div className="result"></div>
+  <div className="result"></div> */}
           </Col>
         </Row>
       </Container>
