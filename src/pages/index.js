@@ -6,7 +6,7 @@ import MainSliderTwo from "../components/slider/main-slider-2";
 import AboutTwo from "../components/about/about-two";
 import VideoCard from "../components/videos/video-card";
 import FeaturedCause from "../components/featured-cause";
-import ServiceTwo from "../components/services/service-two";
+//import ServiceTwo from "../components/services/service-two";
 import FaqOne from "../components/faq-one";
 import CausesHome from "../components/causes/causes-home";
 import PriceOne from "../components/price-one";

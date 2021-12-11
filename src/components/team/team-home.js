@@ -128,9 +128,7 @@ const TeamHome = () => {
             </Col>
             <Col md={12} lg={5}>
               <p className="team-about__top-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{" "}
+                            
               </p>
             </Col>
           </Row>
@@ -146,7 +144,7 @@ const TeamHome = () => {
                   <img src={image} alt="" />
                 </div>
                 <div className="team-card__social">
-                  {social.map(({ link, socialClass }, index) => (
+                  {/*social.map(({ link, socialClass }, index) => (
                     <a
                       href={link}
                       aria-label="social link"
@@ -154,7 +152,7 @@ const TeamHome = () => {
                     >
                       <i className={socialClass}></i>
                     </a>
-                  ))}
+                  ))*/}
                 </div>
                 <div className="team-card__content">
                   <h3>{name}</h3>

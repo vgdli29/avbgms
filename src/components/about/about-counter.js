@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
+import React/*, { useState }*/ from "react";
+//import CountUp from "react-countup";
+//import VisibilitySensor from "react-visibility-sensor";
 import { Container, Row, Col } from "react-bootstrap";
-import heartImage from "../../assets/images/shapes/heart-2-1.png";
+//import heartImage from "../../assets/images/shapes/heart-2-1.png";
 import aboutImage from "../../assets/images/resources/about-counter-1-1.jpg";
 import aboutHeart from "../../assets/images/shapes/about-count-heart-1-1.png";
 
 const AboutCounter = () => {
-  const [counter, setCounter] = useState({
+  /*const [counter, setCounter] = useState({
     startCounter: false
   });
 
@@ -15,33 +15,29 @@ const AboutCounter = () => {
     if (isVisible) {
       setCounter({ startCounter: true });
     }
-  };
+  };*/
   return (
     <section className="about-counter pt-120">
       <Container>
         <Row>
           <Col lg={6}>
             <div className="block-title">
-              <p>
+              {/*<p>
                 <img src={heartImage} width="15" alt="" />
                 Help People Now
-              </p>
+              </p> */}
               <h3>
                 Charity for the people <br />
                 you care about.
               </h3>
             </div>
-            <p className="about-counter__text">
-              Lorem Ipsum is simply dummy text of the printing and <br />{" "}
-              typesetting industry. Have you done google research which <br />{" "}
-              works all the time.{" "}
-            </p>
+            <p className="about-counter__text"></p>
             <ul className="list-unstyled ul-list-one">
-              <li>Nsectetur cing elit.</li>
-              <li>Suspe ndisse suscipit sagittis leo.</li>
-              <li>Entum estibulum dignissim posuere.</li>
+              <li>MISSION - We are on the mission to touch the 10 million people’s lives by 2030.</li>
+              <li>VISSION - To bring back the glory of BHARAT MATA.</li>
+              <li>VALUES - Education, Empowerment and Total growth.</li>
             </ul>
-            <div className="about-counter__count">
+            {/*<div className="about-counter__count">
               <h3 className="odometer">
                 <VisibilitySensor
                   onChange={onVisibilityChange}
@@ -54,7 +50,7 @@ const AboutCounter = () => {
               <p>
                 Donation campaigns <br /> are running
               </p>
-            </div>
+            </div> */}
           </Col>
           <Col lg={6}>
             <div className="about-counter__image clearfix">

@@ -8,17 +8,18 @@ import AboutCounter from "../components/about/about-counter";
 import TeamHome from "../components/team/team-home";
 import VideoCard from "../components/videos/video-card";
 import TestimonialsOne from "../components/testimonials/testimonials-one";
-import BrandCarousel from "../components/brand-carousel";
+//import BrandCarousel from "../components/brand-carousel";
 import Footer from "../components/footer";
 
 const About = () => {
   return (
-    <Layout pageTitle="About Page || Azino || Charity React Next Template">
+    <Layout pageTitle="About | What We Do | AVBGMS">
       <HeaderOne />
-      <PageHeader title="About Page" crumbTitle="About" />
+      <br/> <br/>
+      <PageHeader title="What We Do" crumbTitle="About" />
       <StickyHeader />
       <AboutOne />
-      <BrandCarousel extraClass="client-carousel__has-border-top" />
+      {/* <BrandCarousel extraClass="client-carousel__has-border-top" /> */}
       <AboutCounter />
       <TeamHome />
       <VideoCard />

@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 import NavLinks from "./nav-links";
 
-import flag1 from "../../assets/images/resources/flag-1-1.jpg";
+//import flag1 from "../../assets/images/resources/flag-1-1.jpg";
 import logoDark from "../../assets/images/logo-dark.png";
 
 const HeaderOne = () => {
@@ -28,9 +28,9 @@ const HeaderOne = () => {
               className="d-none d-md-none d-lg-none d-xl-block"
             >
               <div className="main-header__top">
-                <p>Welcome to non profit charity platform</p>
+                <p>Welcome to Atal-Vivek Bharat Gyan-Mandir Sansthan</p>
                 <div className="main-header__social">
-                  <a href="#none" aria-label="twitter">
+                  {/** <a href="#none" aria-label="twitter">
                     <i className="fab fa-twitter"></i>
                   </a>
                   <a href="#none" aria-label="facebook">
@@ -41,7 +41,13 @@ const HeaderOne = () => {
                   </a>
                   <a href="#none" aria-label="instagram">
                     <i className="fab fa-instagram"></i>
+                  </a> */}
+                  <a href="https://www.facebook.com/atalvivek.avbgms/" aria-label="facebook">
+                    <i className="fab fa-facebook-square"></i>
                   </a>
+                  <a href="https://wa.me/917982130200/" aria-label="whatsapp">
+                    <i className="fab fa-whatsapp-square"></i>
+                  </a>                  
                 </div>
               </div>
               <nav className="main-menu dynamic-radius">
@@ -59,7 +65,7 @@ const HeaderOne = () => {
                     <a href="tel:+91-79821-30200">+91-79821-30200</a>
                   </li>
                 </ul>
-                <div className="main-header__language">
+                {/**<div className="main-header__language">
                   <div className="main-header__language-image">
                     <img src={flag1} alt="" />
                   </div>
@@ -74,7 +80,7 @@ const HeaderOne = () => {
                     className="fa fa-angle-down
                   "
                   ></i>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>

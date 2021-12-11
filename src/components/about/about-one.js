@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import about1 from "../../assets/images/shapes/about-bag-1-1.png";
 import about2 from "../../assets/images/resources/about-1-1.jpg";
 import about3 from "../../assets/images/resources/about-1-2.jpg";
-import heart from "../../assets/images/shapes/heart-2-1.png";
+//import heart from "../../assets/images/shapes/heart-2-1.png";
 
 const AboutOne = () => {
   return (
@@ -26,25 +26,28 @@ const AboutOne = () => {
           <Row>
             <Col md={12} lg={4}>
               <div className="block-title">
-                <p>
+                {/*<p>
                   <img src={heart} width="15" alt="" />
                   Make a Difference
-                </p>
-                <h3>Let’s help them together.</h3>
+                </p> */}
+                <h3>ATAL-VIVEK BHARAT GYAN-MANDIR SANSRTHAN.</h3>
               </div>
             </Col>
             <Col md={12} lg={4}>
               <p className="team-about__top-text">
-                Tincidunt elit magnis nulla facilisis sagittis is maecenas.
-                Sapien nunced amet ultrices, dolores sit ipsum velit purus
-                aliquet, massa fringilla leo orci ipsum dolor sit.
+              AVGMS is a benevolent organization working Pan India.  It was founded one year ago with a mission to touch 10 million people’s lives by 2030. The original aim of organization is enhancing child dignity by educating them.  We are on a mission to educate the unprivileged children of INDIA. The main purpose of the organization is to organize, consolidate, promote the education of children and protect the children from any type of  violence and provide atmosphere for their total growth.
               </p>
             </Col>
             <Col md={12} lg={4}>
               <p className="team-about__top-text">
-                Sapien nunced amet ultrices, dolores sit ipsum velit purus
-                aliquet, massa fringilla leo orci. Lorem ipsum dolor sit amet.
-                consectetur adipisi cing elit dolo.
+              The main purpose and objects of the charitable Trust is:
+              <ol>
+<li>To develop the healthy attitude towards the development of physical, cultural, and moral upliftment of the students to make them good human being.</li>
+<li>To provide food, shelter, clothing, and medical care for the needy. </li>
+<li>To promote the plantation activity to save the environment. </li>
+<li>To promote and encourage “BETI BACHAO BETI PADHAO”. </li>
+<li>To promote the orphanages homes. </li>
+</ol>
               </p>
             </Col>
           </Row>

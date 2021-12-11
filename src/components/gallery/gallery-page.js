@@ -9,6 +9,12 @@ import galleryImage6 from "../../assets/images/gallery/gallery-1-6.jpg";
 import galleryImage7 from "../../assets/images/gallery/gallery-1-7.jpg";
 import galleryImage8 from "../../assets/images/gallery/gallery-1-8.jpg";
 import galleryImage9 from "../../assets/images/gallery/gallery-1-9.jpg";
+import galleryImage10 from "../../assets/images/gallery/gallery-1-10.jpg";
+import galleryImage11 from "../../assets/images/gallery/gallery-1-11.jpg";
+import galleryImage12 from "../../assets/images/gallery/gallery-1-12.jpg";
+import galleryImage13 from "../../assets/images/gallery/gallery-1-13.jpg";
+import galleryImage14 from "../../assets/images/gallery/gallery-1-14.jpg";
+import galleryImage15 from "../../assets/images/gallery/gallery-1-15.jpg";
 
 const GalleryPage = () => {
   return (
@@ -24,6 +30,12 @@ const GalleryPage = () => {
           <GalleryCard image={galleryImage7} />
           <GalleryCard image={galleryImage8} />
           <GalleryCard image={galleryImage9} />
+          <GalleryCard image={galleryImage10} />
+          <GalleryCard image={galleryImage11} />
+          <GalleryCard image={galleryImage12} />
+          <GalleryCard image={galleryImage13} />
+          <GalleryCard image={galleryImage14} />
+          <GalleryCard image={galleryImage15} />
         </div>
       </div>
     </section>

@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import bgImage from "../../assets/images/shapes/testimonials-map-1-1.png";
 import heart from "../../assets/images/shapes/heart-2-1.png";
-import image1 from "../../assets/images/resources/testimonial-1-1.jpg";
-import image2 from "../../assets/images/resources/testimonial-1-2.jpg";
-import image3 from "../../assets/images/resources/testimonial-1-3.jpg";
+//import image1 from "../../assets/images/resources/testimonial-1-1.jpg";
+//import image2 from "../../assets/images/resources/testimonial-1-2.jpg";
+//import image3 from "../../assets/images/resources/testimonial-1-3.jpg";
 
-const TESTIMONIALS_ONE_DATA = [
+/*const TESTIMONIALS_ONE_DATA = [
   {
     image: image1,
     text:
@@ -28,7 +28,7 @@ const TESTIMONIALS_ONE_DATA = [
     name: "Alex Cooper",
     designation: "Customer"
   }
-];
+];*/
 
 const TestimonialsOne = () => {
   return (
@@ -43,24 +43,28 @@ const TestimonialsOne = () => {
               <div className="block-title">
                 <p>
                   <img src={heart} width="15" alt="" />
-                  Our Testimonials
+                  Our Objectives
                 </p>
                 <h3>
-                  What they are talking <br /> about azino.
+                  Things that keep us moving. 
                 </h3>
               </div>
             </Col>
             <Col md={12} lg={5}>
               <p className="team-about__top-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{" "}
+              <ol>
+                <li>To develop the healthy attitude towards the development of physical, cultural, and moral upliftment of the students to make them good human being.</li>
+                <li>To provide food, shelter, clothing, and medical care for the needy. </li>
+                <li>To promote the plantation activity to save the environment. </li>
+                <li>To promote and encourage “BETI BACHAO BETI PADHAO”. </li>
+                <li>To promote the orphanages homes. </li>
+              </ol>
               </p>
             </Col>
           </Row>
         </div>
         <Row>
-          {TESTIMONIALS_ONE_DATA.map(
+          {/*TESTIMONIALS_ONE_DATA.map(
             ({ image, designation, text, name }, index) => (
               <Col lg={4} key={`testimonials-post-key-${index}`}>
                 <div className="testimonials-one__single">
@@ -73,7 +77,7 @@ const TestimonialsOne = () => {
                 </div>
               </Col>
             )
-          )}
+            )*/}
         </Row>
       </Container>
     </section>

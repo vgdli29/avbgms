@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 import { Link as ScrollLink } from "react-scroll";
 import { Container, Row, Col } from "react-bootstrap";
 import logoLight from "../assets/images/logo-light.png";
-import blogPost1 from "../assets/images/resources/footer-img-1-1.jpg";
-import blogPost2 from "../assets/images/resources/footer-img-1-2.jpg";
+//import blogPost1 from "../assets/images/resources/footer-img-1-1.jpg";
+//import blogPost2 from "../assets/images/resources/footer-img-1-2.jpg";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="main-footer pt-142 pb-80">
         <Container>
           <Row>
-            <Col lg={3} md={6} sm={12}>
+            <Col lg={4} md={6} sm={12}>
               <div className="footer-widget mb-40 footer-widget__about">
                 <Link to="/">
                   <img
@@ -23,12 +23,15 @@ const Footer = () => {
                   />
                 </Link>
                 <p>
-                  Lorem ipsum dolor sit amet consect etur adi pisicing elit sed.
+                  
                 </p>
                 <ul className="list-unstyled footer-widget__contact">
                   <li>
                     <a href="#none">
-                      <i className="azino-icon-telephone"></i>+91-79821-30200
+                      <i className="azino-icon-pin"></i>A7-906, Nirala Aspire, GH-03,<br/>
+                      &nbsp; &nbsp; &nbsp; Sector-16, Greater Noida  West,<br/> 
+                      &nbsp; &nbsp; &nbsp; Distt. Gautam Budh Nagar,<br/> 
+                      &nbsp; &nbsp; &nbsp; UP-201306
                     </a>
                   </li>
                   <li>
@@ -38,48 +41,46 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#none">
-                      <i className="azino-icon-pin"></i>Greater Noida, Uttar Pradesh
-                      India
+                      <i className="azino-icon-telephone"></i>+91-79821-30200<br/>
+                      &nbsp; &nbsp; &nbsp; +0120-6580340
                     </a>
                   </li>
                 </ul>
               </div>
             </Col>
-            <Col lg={3} md={6} sm={12}>
+            <Col lg={2}></Col>
+            <Col lg={6} md={6} sm={12}>
               <div className="footer-widget footer-widget__link mb-40">
                 <h3 className="footer-widget__title">Explore</h3>
                 <ul className="list-unstyled footer-widget__link-list">
                   <li>
-                    <Link to="/causes">Our Causes</Link>
-                  </li>
-                  <li>
                     <Link to="/about">About us</Link>
                   </li>
                   <li>
-                    <Link to="/news">New Campaign</Link>
+                    <Link to="/news">News</Link>
                   </li>
                   <li>
-                    <Link to="/events">Upcoming Events</Link>
+                    <Link to="/events">Events</Link>
                   </li>
                   <li>
                     <Link to="/about">Site Map</Link>
                   </li>
                   <li>
+                    <Link to="/become-volunteer">Become a Volunteer</Link>
+                  </li>
+                  <li>
                     <Link to="/contact">Help</Link>
                   </li>
                   <li>
-                    <Link to="/causes">Donate</Link>
+                    <Link to="/contact">Donate</Link>
                   </li>
                   <li>
                     <Link to="/contact">Contact us</Link>
                   </li>
-                  <li>
-                    <Link to="/contact">Terms</Link>
-                  </li>
                 </ul>
               </div>
             </Col>
-            <Col lg={3} md={6} sm={12}>
+            {/** <Col lg={3} md={6} sm={12}>
               <div className="footer-widget mb-40 footer-widget__blog">
                 <h3 className="footer-widget__title">Blog</h3>
                 <ul className="list-unstyled footer-widget__blog">
@@ -128,7 +129,7 @@ const Footer = () => {
                 </form>
                 <div className="mc-form__response"></div>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>
@@ -142,9 +143,9 @@ const Footer = () => {
           >
             <i className="far fa-angle-up"></i>
           </ScrollLink>
-          <p>© Copyright 2020 by Layerdrops.com</p>
+          <p>© Copyright 2020 by AVBGMS</p>
           <div className="footer-social">
-            <a href="#none" aria-label="twitter">
+            {/*<a href="#none" aria-label="twitter">
               <i className="fab fa-twitter"></i>
             </a>
             <a href="#none" aria-label="facebook">
@@ -155,6 +156,12 @@ const Footer = () => {
             </a>
             <a href="#none" aria-label="instagram">
               <i className="fab fa-instagram"></i>
+          </a> */}
+            <a href="https://www.facebook.com/atalvivek.avbgms/" aria-label="facebook">
+              <i className="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://wa.me/917982130200/" aria-label="whatsapp">
+              <i className="fab fa-whatsapp-square"></i>
             </a>
           </div>
         </div>

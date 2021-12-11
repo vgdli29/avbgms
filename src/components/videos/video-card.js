@@ -35,7 +35,7 @@ const VideoCard = () => {
             Start Donating
           </Link>
 
-          <span
+          {/*<span
             onClick={() => setOpen(true)}
             onKeyDown={() => setOpen(true)}
             className="video-popup video-card__btn"
@@ -43,7 +43,7 @@ const VideoCard = () => {
             tabIndex={0}
           >
             <i className="fa fa-play"></i>
-          </span>
+          </span>*/}
         </div>
       </Container>
     </section>
