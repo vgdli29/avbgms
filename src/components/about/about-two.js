@@ -22,14 +22,12 @@ const AboutTwo = () => {
             <div className="about-two__content">
               <div className="block-title">
                 <p>
-                  <img src={heart} width="15" alt="" /> About Azino Platform
+                  <img src={heart} width="15" alt="" /> About AVBGMS
                 </p>
-                <h3>Welcome to non-profit charity organization.</h3>
+                <h3>Welcome to Atal-Vivek Bharat Gyan-Mandir Sansthan.</h3>
               </div>
               <p className="mb-40 pr-10">
-                Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-                sed do eiusmod tempor incididunt simply free ut labore et dolore
-                magna aliqua simhy adndnh qkhhn.
+              The original aim of AVGMS is enhancing child dignity by educating them.  We are on a mission to educate the unprivileged children of INDIA.  
               </p>
               <Row>
                 <Col md={6}>
@@ -39,7 +37,7 @@ const AboutTwo = () => {
                       Volunteer
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit ametelit sed consectetur notted.
+                    Join us in our social causes, lets build a world where every one gets to live a happy, healthy and prosperous life{" "}
                     </p>
                   </div>
                   <div className="about-two__box">
@@ -48,7 +46,7 @@ const AboutTwo = () => {
                       Fundraising
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit ametelit sed consectetur notted.
+                      Any event consumes fund, your donation helps in keeping this alive.
                     </p>
                   </div>
                 </Col>

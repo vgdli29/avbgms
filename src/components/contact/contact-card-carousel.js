@@ -37,8 +37,7 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-family"></i>
               <h3>About</h3>
               <p>
-                Lorem ipsum is simply free text <br /> dolor sit amet,
-                consectetur <br /> adipiscing ullam blandit
+              The aim of AVBGMS is enhancing child dignity by educating them. We are on a mission to educate the unprivileged children of INDIA.
               </p>
             </div>
           </SwiperSlide>
@@ -50,7 +49,7 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-address"></i>
               <h3>Address</h3>
               <p>
-                Greater Noida, Gautam Buddh Nagar, <br /> Uttar Pradesh, India
+              A7-906, Nirala Aspire, GH-03, <br/>Sector-16, Greater Noida  West, <br/>Distt. Gautam Budh Nagar, <br/>UP-201306
               </p>
             </div>
           </SwiperSlide>
@@ -63,7 +62,8 @@ const ContactCardCarousel = () => {
               <h3>Contact</h3>
               <p>
                 <a href="mailto:atalvivek.avbgms@gmail.com">atalvivek.avbgms@gmail.com</a> <br />{" "}
-                <a href="tel:+91-79821-30200">+91-79821-30200</a>
+                <a href="tel:+91-79821-30200">+91-79821-30200</a><br/>{" "}
+                <a href="tel:+0120-6580340">+0120-6580340</a>
               </p>
             </div>
           </SwiperSlide>

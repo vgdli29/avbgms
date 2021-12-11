@@ -10,12 +10,14 @@ import Footer from "../components/footer";
 
 const Contact = () => {
   return (
-    <Layout pageTitle="Contact Page || Azino || Charity React Next Template">
+    <Layout pageTitle="Contact Page || AVBGMS">
       <HeaderOne />
       <StickyHeader />
       <PageHeader title="Contact Page" crumbTitle="Contact Us" />
       <ContactFormOne />
       <ContactCardCarousel />
+      <br/>
+      <br/>
       <GoogleMap extraClass="contact" />
       <Footer />
     </Layout>
