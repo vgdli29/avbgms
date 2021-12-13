@@ -2,13 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heartImage from "../../assets/images/shapes/heart-2-1.png";
 import bgImage from "../../assets/images/team/team-map-1-1.png";
-import teamImage1 from "../../assets/images/team/team-2-1.jpg";
-import teamImage2 from "../../assets/images/team/team-2-2.jpg";
-import teamImage3 from "../../assets/images/team/team-2-3.jpg";
-import teamImage4 from "../../assets/images/team/team-2-4.jpg";
+//import teamImage1 from "../../assets/images/team/team-2-1.jpg";
+//import teamImage2 from "../../assets/images/team/team-2-2.jpg";
+//import teamImage3 from "../../assets/images/team/team-2-3.jpg";
+//import teamImage4 from "../../assets/images/team/team-2-4.jpg";
 
 const TeamData = [
-  {
+  {/*{
     image: teamImage1,
     extraClassName: "content-bg-1",
     name: "Isabel Herrera",
@@ -103,7 +103,7 @@ const TeamData = [
         socialClass: "fab fa-instagram"
       }
     ]
-  }
+  }*/}
 ];
 
 const TeamHome = () => {
@@ -124,6 +124,9 @@ const TeamHome = () => {
                 <h3>
                   Meet those who help <br /> others in need.
                 </h3>
+                <p>
+                  This section will showcase all our esteemed and motivated volunteers. WIP 
+                </p>
               </div>
             </Col>
             <Col md={12} lg={5}>

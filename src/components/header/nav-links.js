@@ -46,14 +46,16 @@ const NavLinks = ({ extraClassName }) => {
           <li>
             <Link to="/gallery">Gallery</Link>
           </li>
+          {/* will be made availabe after data is received
           <li>
             <Link to="/events">Events</Link>
-          </li>
+          </li>*/}
         </ul>
       </li>
+      {/* will be made availabe after data is received
       <li>
         <Link to="/news">News</Link>        
-      </li>
+      </li> */}
       <li>
         <Link to="/become-volunteer">Become a Volunteer</Link>
       </li>
