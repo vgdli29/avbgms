@@ -2,108 +2,57 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heartImage from "../../assets/images/shapes/heart-2-1.png";
 import bgImage from "../../assets/images/team/team-map-1-1.png";
-//import teamImage1 from "../../assets/images/team/team-2-1.jpg";
-//import teamImage2 from "../../assets/images/team/team-2-2.jpg";
-//import teamImage3 from "../../assets/images/team/team-2-3.jpg";
-//import teamImage4 from "../../assets/images/team/team-2-4.jpg";
+import teamImage1 from "../../assets/images/team/team-2-1.jpg";
+import teamImage2 from "../../assets/images/team/team-2-2.jpg";
+import teamImage3 from "../../assets/images/team/team-2-3.jpg";
+import teamImage4 from "../../assets/images/team/team-2-4.jpg";
+import teamImage5 from "../../assets/images/team/team-2-5.jpg";
+import teamImage6 from "../../assets/images/team/team-2-6.jpg";
+import teamImage7 from "../../assets/images/team/team-2-7.jpg";
 
 const TeamData = [
-  {/*{
+  {
     image: teamImage1,
     extraClassName: "content-bg-1",
-    name: "Isabel Herrera",
-    designation: "Student",
-    social: [
-      {
-        link: "#",
-        socialClass: "fab fa-twitter"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-instagram"
-      }
-    ]
+    name: "Mr Amrendra Kumar",
+    designation: "President "
   },
   {
     image: teamImage2,
     extraClassName: "content-bg-2",
-    name: "Nathan Wheeler",
-    designation: "Student",
-    social: [
-      {
-        link: "#",
-        socialClass: "fab fa-twitter"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-instagram"
-      }
-    ]
+    name: "Mrs. Alka Singh",
+    designation: "Secretary"
   },
   {
     image: teamImage3,
     extraClassName: "content-bg-3",
-    name: "Warren Shaw",
-    designation: "Student",
-    social: [
-      {
-        link: "#",
-        socialClass: "fab fa-twitter"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-instagram"
-      }
-    ]
+    name: "Mr Satish Chandra Mishra",
+    designation: "Vice President"
   },
   {
     image: teamImage4,
     extraClassName: "content-bg-4",
-    name: "Hallie Wallace",
-    designation: "Student",
-    social: [
-      {
-        link: "#",
-        socialClass: "fab fa-twitter"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-instagram"
-      }
-    ]
-  }*/}
+    name: "Mr Ashok Nath Jha",
+    designation: "Chief Account Officer"
+  },
+  {
+    image: teamImage5,
+    extraClassName: "content-bg-1",
+    name: "Mrs Neeraj Rathi",
+    designation: "Treasurer"
+  },
+  {
+    image: teamImage6,
+    extraClassName: "content-bg-2",
+    name: "Mrs Vandana Singh",
+    designation: "Chief Legal Officer"
+  },
+  {
+    image: teamImage7,
+    extraClassName: "content-bg-3",
+    name: "Mr Mahesh Tomar",
+    designation: "Chief Technology Officer"
+  }
 ];
 
 const TeamHome = () => {
@@ -125,7 +74,7 @@ const TeamHome = () => {
                   Meet those who help <br /> others in need.
                 </h3>
                 <p>
-                  This section will showcase all our esteemed and motivated volunteers. WIP 
+                  This section showcase all our esteemed and motivated directors.
                 </p>
               </div>
             </Col>
@@ -146,16 +95,7 @@ const TeamHome = () => {
                 <div className="team-card__image">
                   <img src={image} alt="" />
                 </div>
-                <div className="team-card__social">
-                  {/*social.map(({ link, socialClass }, index) => (
-                    <a
-                      href={link}
-                      aria-label="social link"
-                      key={`social-link-key-${index}`}
-                    >
-                      <i className={socialClass}></i>
-                    </a>
-                  ))*/}
+                <div className="team-card__social">                  
                 </div>
                 <div className="team-card__content">
                   <h3>{name}</h3>
