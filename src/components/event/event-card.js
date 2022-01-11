@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 
 const EventCard = ({ data }) => {
-  const { image, title, date, time, location, link } = data;
+  const { image, title, date, location, link } = data;
   return (
     <div className="event-card">
       <div className="event-card-inner">
@@ -13,19 +13,20 @@ const EventCard = ({ data }) => {
           </div>
         </div>
         <div className="event-card-content">
-          <h3>
+          <h3>{title}</h3>
+          {/*<h3>
             <Link to={link}>{title}</Link>
-          </h3>
+          </h3>*/}
           <ul className="event-card-list">
-            <li>
+            {/*<li>
               <i className="azino-icon-clock"></i>
               <strong>Time:</strong> {time}
-            </li>
+            </li>*/}
             <li>
               <i className="azino-icon-pin1"></i>
               <strong>Location:</strong> {location}
             </li>
-          </ul>
+  </ul>
         </div>
       </div>
     </div>
