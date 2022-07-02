@@ -6034,6 +6034,20 @@ h6 {
   border-radius: 15px;
 }
 
+.facebook-container { 
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.facebook-container iframe {
+  display: flex;
+  border: none;
+  outline: none;
+  min-width: 75%;
+  min-height: 500px;
+}
+
 @media (max-width: 767px) {
   .about-two__box-two {
     max-width: 370px;

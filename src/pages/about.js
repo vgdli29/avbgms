@@ -7,7 +7,7 @@ import AboutOne from "../components/about/about-one";
 import AboutCounter from "../components/about/about-counter";
 import TeamHome from "../components/team/team-home";
 import VideoCard from "../components/videos/video-card";
-import TestimonialsOne from "../components/testimonials/testimonials-one";
+import Testimonials2 from "../components/testimonials/testimonials-2";
 //import BrandCarousel from "../components/brand-carousel";
 import Footer from "../components/footer";
 
@@ -23,7 +23,7 @@ const About = () => {
       <AboutCounter />
       <TeamHome />
       <VideoCard />
-      <TestimonialsOne />
+      <Testimonials2 />
       <Footer />
     </Layout>
   );

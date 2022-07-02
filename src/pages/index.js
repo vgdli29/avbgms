@@ -13,10 +13,13 @@ import VideoCard from "../components/videos/video-card";
 //import FactCounter from "../components/fact-counter";
 //import BrandCarousel from "../components/brand-carousel";
 import TestimonialsOne from "../components/testimonials/testimonials-one";
+import Testimonials2 from "../components/testimonials/testimonials-2";
+import VideoCard2 from "../components/videos/video-card-2";
 //import GalleryHomeTwo from "../components/gallery/gallery-home-two";
-//import BlogHomeTwo from "../components/blog/blog-home-two";
+import BlogHomeTwo from "../components/blog/blog-home-two";
 //import EventHomeTwo from "../components/event/event-home-two";
 import Footer from "../components/footer";
+import PriceOne from "../components/price-one";
 
 const HomeTwo = () => {
   return (
@@ -27,15 +30,18 @@ const HomeTwo = () => {
       {/*<ServiceTwo /> */}
       <AboutTwo />
       <VideoCard />
-      {/*<CausesHome />
+      {/*<FactCounter />
+      <CausesHome />
       <FeaturedCause />
       <FaqOne />*/}
-      <TestimonialsOne />
-      {/*<FactCounter />
-      <PriceOne />
+      <TestimonialsOne />      
+      <VideoCard2/>      
+      <Testimonials2 />
+      {/*<PriceOne />
+      <BlogHomeTwo />
       <GalleryHomeTwo />
       <EventHomeTwo />
-      <BlogHomeTwo />
+      
       <BrandCarousel extraClass="client-carousel__has-border-top" />*/}
       <Footer />
     </Layout>

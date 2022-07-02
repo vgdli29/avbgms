@@ -9,8 +9,10 @@ import teamImage4 from "../../assets/images/team/team-2-4.jpg";
 import teamImage5 from "../../assets/images/team/team-2-5.jpg";
 import teamImage6 from "../../assets/images/team/team-2-6.jpg";
 import teamImage7 from "../../assets/images/team/team-2-7.jpg";
+import yashwantImage from "../../assets/images/team/Yashwant.jpg";
+import vivekImage from "../../assets/images/team/Vivek.jpg";
 
-const TeamData = [
+const Directors = [
   {
     image: teamImage1,
     extraClassName: "content-bg-1",
@@ -55,6 +57,21 @@ const TeamData = [
   }
 ];
 
+const Volunteers = [
+  {
+    image: vivekImage,
+    extraClassName: "content-bg-1",
+    name: "Mr Vivek Gupta",
+    designation: "Volunteer"
+  },
+  {
+    image: yashwantImage,
+    extraClassName: "content-bg-2",
+    name: "Mr. Yashwant K Singh",
+    designation: "Volunteer"
+  }
+];
+
 const TeamHome = () => {
   return (
     <section
@@ -62,13 +79,13 @@ const TeamHome = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <Container>
-        <div className="team-about__top">
+      <div className="team-about__top">
           <Row className=" align-items-center">
             <Col md={12} lg={7}>
               <div className="block-title">
                 <p>
                   <img src={heartImage} width="15" alt="" />
-                  Our Volunteers
+                  Our Directors
                 </p>
                 <h3>
                   Meet those who help <br /> others in need.
@@ -86,7 +103,51 @@ const TeamHome = () => {
           </Row>
         </div>
         <div className="team-4-col">
-          {TeamData.map(
+          {Directors.map(
+            ({ image, extraClassName, name, designation, social }, index) => (
+              <div
+                className={`team-card text-center ${extraClassName}`}
+                key={`team-card-key-${index}`}
+              >
+                <div className="team-card__image">
+                  <img src={image} alt="" />
+                </div>
+                <div className="team-card__social">                  
+                </div>
+                <div className="team-card__content">
+                  <h3>{name}</h3>
+                  <p>{designation}</p>
+                </div>
+              </div>
+            )
+          )}
+        </div>
+        <br/>
+        <div className="team-about__top">
+          <Row className=" align-items-center">
+            <Col md={12} lg={7}>
+              <div className="block-title">
+                <p>
+                  <img src={heartImage} width="15" alt="" />
+                  Our Volunteers 
+                </p>
+                <h3>
+                  Meet those who are there <br/>to help always.
+                </h3>
+                <p>
+                  This section showcase all our energetic and self-less volunteers.
+                </p>
+              </div>
+            </Col>
+            <Col md={12} lg={5}>
+              <p className="team-about__top-text">
+                            
+              </p>
+            </Col>
+          </Row>
+        </div>
+        <div className="team-4-col">
+          {Volunteers.map(
             ({ image, extraClassName, name, designation, social }, index) => (
               <div
                 className={`team-card text-center ${extraClassName}`}

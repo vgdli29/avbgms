@@ -30,7 +30,7 @@ import heart from "../../assets/images/shapes/heart-2-1.png";
   }
 ];*/
 
-const TestimonialsOne = () => {
+const Testimonials2 = () => {
   return (
     <section
       className="testimonials-one pt-120 pb-90"
@@ -43,29 +43,22 @@ const TestimonialsOne = () => {
               <div className="block-title">
                 <p>
                   <img src={heart} width="15" alt="" />
-                  Stay connected
+                  Our Objectives
                 </p>
                 <h3>
-                  Watch us live in action <br/> on our facebook page.
+                  Things that keep us moving. 
                 </h3>
               </div>
             </Col>
-            <Col md={12} lg={5}>            
+            <Col md={12} lg={5}>
               <p className="team-about__top-text">
-              <div className="facebook-container">
-              <iframe 
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fatalvivek.avbgms%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" 
-                scrolling="yes" frameborder="0"
-                style={{
-                  border: "none",
-                  overflow: "hidden",
-                  display:"block",
-                  margin:"auto"
-                }}                
-                allowfullscreen="true" 
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                  </iframe>                  
-              </div>
+              <ol>
+                <li>To develop the healthy attitude towards the development of physical, cultural, and moral upliftment of the students to make them good human being.</li>
+                <li>To provide food, shelter, clothing, and medical care for the needy. </li>
+                <li>To promote the plantation activity to save the environment. </li>
+                <li>To promote and encourage “BETI BACHAO BETI PADHAO”. </li>
+                <li>To promote the orphanages homes. </li>
+              </ol>
               </p>
             </Col>
           </Row>
@@ -91,4 +84,4 @@ const TestimonialsOne = () => {
   );
 };
 
-export default TestimonialsOne;
+export default Testimonials2;
